@@ -1,10 +1,4 @@
-//
-//  AppDelegate.m
-//  demo_app
-//
-//  Created by Paras Gorasiya on 12/05/15.
-//  Copyright (c) 2015 Paras Gorasiya. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
 

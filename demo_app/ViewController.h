@@ -1,15 +1,17 @@
-//
-//  ViewController.h
-//  demo_app
-//
-//  Created by Paras Gorasiya on 12/05/15.
-//  Copyright (c) 2015 Paras Gorasiya. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIAlertViewDelegate>
+{
+    AVAudioPlayer *audioPlayer;
+}
 
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentControl;
+- (IBAction)segmentIndexChange:(id)sender;
+@property (strong, nonatomic) IBOutlet UILabel *lblTitle;
+- (IBAction)heartButtonTapped:(id)sender;
 
 @end
 

@@ -1,10 +1,3 @@
-//
-//  demo_appTests.m
-//  demo_appTests
-//
-//  Created by Paras Gorasiya on 12/05/15.
-//  Copyright (c) 2015 Paras Gorasiya. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
